@@ -1,12 +1,5 @@
 <div id="top"></div>
 
-
-<!-- PROJECT SHIELDS -->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
@@ -16,12 +9,10 @@
   <p align="center">
     Simple single persian word speech recognition using CNN on Raspberry Pi board 🗣
     <br />
-    <a href="https://github.com/seyedsaleh/persian-speech-recognition"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/sepehrgh98/Speech-Recognition"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://colab.research.google.com/drive/1mlSL36sGjiHFRqwwSazPifH6K6O7bxf4?usp=sharing">Demo persian word speech recognition (Google Colab)</a>
     .
-    <a href="https://github.com/seyedsaleh/persian-speech-recognition/issues">Report Bug & Request Feature</a>
   </p>
 </div>
 
@@ -38,7 +29,6 @@
       </ul>
     </li>
     <li><a href="#parts">Parts</a></li>
-    <li><a href="#results">Results</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#dataset">Dataset</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -140,18 +130,6 @@ We use a Convolutional Neural Network (CNN) with one-dimensional convolutions on
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
-<!-- RESULTS -->
-## Results
-
-The model achieves **99.73%** accuracy on the validation set. The results show that the model can predict samples of words it has seen during training with high accuracy. Still, it somewhat struggles to generalize to terms outside the training data scope and extremely noisy samples.
-
-<p> <img src="https://user-images.githubusercontent.com/47852354/143778330-22752161-0207-4610-950b-5f59015621ef.png" width="300"> </p> 
-
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
 <!-- LICENSE -->
 ## License
 
@@ -180,10 +158,10 @@ Each folder contains approximately 250 audio files for each word. The name of th
 <!-- CONTACT -->
 ## Contact
 
-Seyedmohammadsaleh Mirzatabatabaei - [@seyedsaleh](https://github.com/seyedsaleh) - seyedsaleh.edu@gmail.com
+Sepehr Ghamari - [@sepehrgh98](https://github.com/sepehrgh98) - sepehrghamri@gmail.com
 
 
-Project Link: [https://github.com/seyedsaleh/persian-speech-recognition](https://github.com/seyedsaleh/persian-speech-recognition)
+Project Link: [https://github.com/sepehrgh98/Speech-Recognition](https://github.com/sepehrgh98/Speech-Recognition)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -196,16 +174,3 @@ Project Link: [https://github.com/seyedsaleh/persian-speech-recognition](https:/
 </p>
 </div>
 
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/seyedsaleh/persian-speech-recognition.svg?style=for-the-badge
-[contributors-url]: https://github.com/seyedsaleh/persian-speech-recognition/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/seyedsaleh/persian-speech-recognition.svg?style=for-the-badge
-[forks-url]: https://github.com/seyedsaleh/persian-speech-recognition/network/members
-[stars-shield]: https://img.shields.io/github/stars/seyedsaleh/persian-speech-recognition.svg?style=for-the-badge
-[stars-url]: https://github.com/seyedsaleh/persian-speech-recognition/stargazers
-[issues-shield]: https://img.shields.io/github/issues/seyedsaleh/persian-speech-recognition.svg?style=for-the-badge
-[issues-url]: https://github.com/seyedsaleh/persian-speech-recognition/issues
-[license-shield]: https://img.shields.io/github/license/seyedsaleh/persian-speech-recognition.svg?style=for-the-badge
-[license-url]: https://github.com/seyedsaleh/persian-speech-recognition/blob/master/LICENSE.txt
