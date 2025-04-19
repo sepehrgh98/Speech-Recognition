@@ -1,46 +1,14 @@
-<div id="top"></div>
+<h1 align="center">🧩 Persian Speech Recognition</h1>
 
-<!-- PROJECT LOGO -->
-<br />
-<div align="center">
-
-  <h3 align="center">persian-speech-recognition</h3>
-
-  <p align="center">
-    Simple single persian word speech recognition using CNN on Raspberry Pi board 🗣
-    <br />
-    <a href="https://github.com/sepehrgh98/Speech-Recognition"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    .
-  </p>
-</div>
+<p> <img src="https://user-images.githubusercontent.com/47852354/143776840-15ead278-2b95-4718-9751-b57c5a18693f.png" width=""> </p>  
 
 
-
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary> 
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li><a href="#parts">Parts</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#dataset">Dataset</a></li>
-    <li><a href="#contact">Contact</a></li>
-  </ol>
-</details>
+<p align="center">
+  Simple single persian word speech recognition using CNN on Raspberry Pi board 🗣
+</p>
 
 
-<!-- ABOUT THE PROJECT -->
-## About The Project
-
-<p> <img src="https://user-images.githubusercontent.com/47852354/143776840-15ead278-2b95-4718-9751-b57c5a18693f.png" width="600"> </p>  
-
+## 🎮 Features
 
 In this project, everything starts from a spoken speech from which features are extracted to recognize which word was said (which turns into a classification task). The end goal is to accurately identify a set of predefined words from short audio clips.
 
@@ -55,13 +23,12 @@ For instance, the task in this project will be to classify audio between six wor
 *   Dasti [Manual]
 
 Although single word speech recognition is not suitable for continuous speech recognition, it could be used to build a voice assistant or bot. To show this capability, we have implemented the algorithm on the Raspberry Pi board.
-
-Look at our result! :smile:
-
-<p align="right">(<a href="#top">back to top</a>)</p>
+Look at our result!
+<div id="top"></div>
 
 
-### Built With
+## 📦 Requirements
+
 
 Major frameworks/libraries used to this project:
 
@@ -70,12 +37,9 @@ Major frameworks/libraries used to this project:
 * [gpiozero]( https://gpiozero.readthedocs.io/en/stable/)
 * [librosa](https://librosa.org/doc/latest/index.html)
 * [numpy](https://numpy.org/)
-<p align="right">(<a href="#top">back to top</a>)</p>
 
 
-
-<!-- PARTS -->
-## Parts
+## 🧠 Algorithms Overview
 
 **Data preparation and augmentation**
 
@@ -98,7 +62,7 @@ We have two critical problems for preparing data to feed into the neural network
 1.   We can't just feed an audio file to a CNN. That's outrageous!
 2.   We need to prepare a fixed size vector for each audio file for classification.
 
-> What's the solution?
+What's the solution?
 
 1.   We could use embedding to overcome this problem. An embedding is a mapping from discrete objects, such as words vectors of real numbers.
 There are a lot of techniques and python packages for audio feature extraction. We use the most obvious and simple one, **MFCC encoding**, which is super effective for working with speech signals.
@@ -127,20 +91,8 @@ We use a Convolutional Neural Network (CNN) with one-dimensional convolutions on
 <p> <img src="https://user-images.githubusercontent.com/47852354/143778569-0be4680f-28d1-4984-909a-b0af11f01423.png" width="500"> </p> 
 
 
-<p align="right">(<a href="#top">back to top</a>)</p>
 
-
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE.txt` for more information.
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- DATASETS -->
-## Dataset
+## 🖼️ Dataset
 
 
 We will use our own dataset which we have collected for this project.
@@ -150,20 +102,12 @@ First we record voice data from about 250 different people varrying the sex, age
 Each folder contains approximately 250 audio files for each word. The name of the folder is actually the label of those audio files. You can play some audio files randomly to get an overall idea.
 
 
-<p align="right">(<a href="#top">back to top</a>)</p>
 
+## 📬 Contact
 
+If you have any questions or feedback, feel free to contact us at:
 
-
-<!-- CONTACT -->
-## Contact
-
-Sepehr Ghamari - [@sepehrgh98](https://github.com/sepehrgh98) - sepehrghamri@gmail.com
-
-
-Project Link: [https://github.com/sepehrgh98/Speech-Recognition](https://github.com/sepehrgh98/Speech-Recognition)
-
-<p align="right">(<a href="#top">back to top</a>)</p>
+📧 sepehrghamri@gmail.com
 
 
 ---
